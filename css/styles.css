@@ -283,6 +283,11 @@ body {
   display: flex;
   justify-content: center;
 }
+/*----clients-section----*/
+.clients-list {
+  display: flex;
+}
+
 /*----footer----*/
 .footer-section {
   background-color: #2f303a;
