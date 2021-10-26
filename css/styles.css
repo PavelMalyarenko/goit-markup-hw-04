@@ -56,13 +56,11 @@ body {
 .page-header {
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
 }
 .header-conteiner {
   display: flex;
   align-items: center;
-}
-.header {
-  border-bottom: 1px solid #ececec;
 }
 .logo {
   font-family: Raleway;
@@ -145,20 +143,20 @@ body {
   justify-content: center;
   align-items: center;
 }
-.header-connect {
-  margin-left: 305px;
-}
-.contact-logo-mail {
+.contact-icon {
   margin-right: 10px;
   vertical-align: middle;
+  fill: var(--primary-text-color);
 }
-.contact-logo-mail:hover,
-.contact-logo-mail:focus {
+.header-tel-item :hover .contact-icon,
+.header-tel-item :focus .contact-icon {
   fill: var(--hover-foces-color);
 }
-.contact-logo-tel {
-  vertical-align: middle;
+.header-mail-item :hover .contact-icon,
+.header-mail-item :focus .contact-icon {
+  fill: var(--hover-foces-color);
 }
+
 /*----index-html----*/
 .section {
   padding-top: 94px;
