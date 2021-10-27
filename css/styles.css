@@ -34,7 +34,6 @@ body {
   padding-right: 15px;
   margin: 0 auto;
 }
-
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -47,7 +46,6 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-
 a {
   text-decoration: none;
 }
@@ -243,8 +241,6 @@ a {
   margin-bottom: 30px;
   display: flex;
   justify-content: center;
-}
-.feature-icon {
 }
 /*----work-section----*/
 .work-section {
